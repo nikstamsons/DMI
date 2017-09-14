@@ -1,5 +1,5 @@
-    1  VirtualBox --startvm XP
-    2  l -ls
+      
+    
     3  mkdir niks
     4  cd niks
     5  echo "otra nodarbiba"/ nodarbiba.txt
@@ -47,3 +47,14 @@
    47  cd niks
    48  history
    49  history > history.txt
+   50  ls -l
+   51  cat history.txt
+   52  git init
+   53  git add .
+   54  git config --global user.email nikstamsons@gmail.com
+   55  git commit -m "20170914_09_30"
+   56  git remote add origin https://github.com/nikstamsons/DMI.git
+   57  git push origin master
+   58  pwd
+   59  history
+   60  history > history.txt

@@ -1,0 +1,49 @@
+    1  VirtualBox --startvm XP
+    2  l -ls
+    3  mkdir niks
+    4  cd niks
+    5  echo "otra nodarbiba"/ nodarbiba.txt
+    6  l -ls
+    7  echo "otra nodarbiba" > nodarbiba.txt
+    8  l -ls
+    9  cat nodarbiba.txt
+   10  echo "atkartojums" > atkartojums.txt
+   11  l -ls
+   12  rmdir atkartojums.txt
+   13  rm atkartojums.txt
+   14  l -ls
+   15  nano nodarbiba.txt
+   16  l -ls
+   17  pwd
+   18  cat nodarbiba.txt
+   19  cd .
+   20  cd ..
+   21  mkdir tamsons
+   22  cd tamsons
+   23  cd ..
+   24  rmdir tamsons
+   25  cd tamsons
+   26  uname -r
+   27  echo $0
+   28  pwd
+   29  whoami
+   30  who
+   31  cd niks
+   32  echo "ctrl + shift +t jauns terminals" >terminals.txt
+   33  cat terminals.txt
+   34  ls -a
+   35  cd ..
+   36  ls -a
+   37  ls
+   38  cd niks
+   39  cd user
+   40  cd ~
+   41  pwd
+   42  cd niks
+   43  cd
+   44  cd niks
+   45  mkdir darbi
+   46  cd darbi
+   47  cd niks
+   48  history
+   49  history > history.txt

@@ -1,0 +1,119 @@
+    1  VirtualBox --startvm XP
+    2  firefox &
+    3  nano
+    4  ls -l
+    5  cat git-download.sh
+    6  git-download
+    7  whereis ls
+    8  ls -l /bin/ls
+    9  ls -l git-download
+   10  ls -l git-download.sh
+   11  echo $PATH
+   12  cat /bin/ls
+   13  ls -l
+   14  pwd
+   15  echo $PATH
+   16  PATH=$PATH:/home/user
+   17  echo $PATH
+   18  ls
+   19  /bin/ls
+   20  ~/git-download.sh
+   21  git-download/sh
+   22  git-download.sh
+   23  ls -l
+   24  ls -l /bin/ls
+   25  chmod 744 git-download.sh
+   26  ls -l
+   27  git-download.sh
+   28  ls -l
+   29  mv git-download.sh git-download
+   30  ls -l
+   31  cd DMI
+   32  ls -la
+   33  cp /home/user/git-download ./
+   34  ls -la
+   35  nano git-upload
+   36  ls -l
+   37  cat git-upload
+   38  git-upload
+   39  history >history_20170921.txt
+   40  ls -l
+   41  chmod 744 git-upload
+   42  ls -l
+   43  git-upload
+   44  PATH=$PATH:/home/user
+   45  git-upload
+   46  pwd
+   47  PATH=$PATH:/home/user/DMI
+   48  git-upload
+   49  nano git-upload
+   50  nano history20170921
+   51  nano history_20170921
+   52  nano history_20170921.txt
+   53  cat history_20170921.txt
+   54  nano history_20170921.txt
+   55  VARDS="Niks Tamsons"
+   56  echo &NAME
+   57  echo $NAME
+   58  vards="niks tamsons"
+   59  echo $vards
+   60  nano
+   61  $*
+   62  nano vards
+   63  $
+   64  PATH=$PATH:/home/user/DMI
+   65  chmod 744 vards
+   66  l -ls
+   67  $
+   68  nano vards
+   69  vards$
+   70  nano vards
+   71  $
+   72  $echo
+   73  echo vards
+   74  nano vards
+   75  nano
+   76  nano vards
+   77  nano
+   78  PATH=$PATH:/home/user/DMI
+   79  chmod 744 datums
+   80  datums
+   81  nano git-upload
+   82  git-upload
+   83  nano git-upload
+   84  git-upload
+   85  nano git-upload
+   86  git-upload
+   87  nano git-upload
+   88  history > history1
+   89  history > history1.txt
+   90  git-upload
+   91  nano git-upload
+   92  _ALI=10
+   93  $echo _ALI
+   94  echo $_ALI
+   95  _ALI=70
+   96  echo $_ALI
+   97  a=5
+   98  echo $a
+   99  b=a+1
+  100  echo $b
+  101  b=$a+1
+  102  echo $b
+  103  history
+  104  nano
+  105  nano shell_trenins.sh
+  106  la -l
+  107  ,/shell_trenins,sh
+  108  chmod 744 shell_trenins.sh
+  109  ls -l
+  110  PATH=$PATH:/home/user/DMI
+  111  ./shell_trenins.sh
+  112  cat shell_trenins.sh
+  113  echo $NAME
+  114  nano shell_trenins.sh
+  115  echo $NAME
+  116  ./shell_trenins.sh
+  117  nano shell_trenins.sh
+  118  ./shell_trenins.sh
+  119  history > history20170921_09_25

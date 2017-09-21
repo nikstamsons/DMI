@@ -13,8 +13,10 @@
    13  ls -l
    14  pwd
    15  echo $PATH
-   16  PATH=$PATH:/home/user
-   17  echo $PATH
+apskata celus  
+ 16  PATH=$PATH:/home/user
+parraksta komandu uz celiem  
+ 17  echo $PATH
    18  ls
    19  /bin/ls
    20  ~/git-download.sh
@@ -23,10 +25,12 @@
    23  ls -l
    24  ls -l /bin/ls
    25  chmod 744 git-download.sh
+padara failu lasamu rakstamu un izpildamu
    26  ls -l
    27  git-download.sh
    28  ls -l
    29  mv git-download.sh git-download
+nomaina skripta nosaukumu
    30  ls -l
    31  cd DMI
    32  ls -la

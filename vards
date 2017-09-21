@@ -1,0 +1,6 @@
+#!/bin/sh
+="niks tamsons"
+for vards in $ 
+do
+echo vards
+done 

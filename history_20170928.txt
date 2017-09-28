@@ -1,0 +1,24 @@
+    1  VirtualBox --startvm XP
+    2  git clone https://github.com/nikstamsons/DMI.git
+    3  echo $0
+    4  nano shell_examples.sh
+    5  echo $0
+    6  shell_examples.sh
+    7  nano shell_examples.sh
+    8  echo $#
+    9  nano shell_examples.sh
+   10  echo $#
+   11  nano shell_examples.sh
+   12  echo $#
+   13  shell_examples.sh
+   14  shell_examples.sh arg1
+   15  nano shell_examples.sh
+   16  shell_examples.sh arg1
+   17  nano shell_examples.sh
+   18  shell_examples.sh arg1 arg2 arg3
+   19  history
+   20  ls -l
+   21  nano gitupload
+   22  nano git-upload
+   23  git-upload
+   24  history > history_20170928.txt

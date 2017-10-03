@@ -1,0 +1,27 @@
+cat lasa
+cd dodas uz citu direktoriju
+chmod padara scriptu lasamu, rakstamu, izpildamu
+chmod 744 git-download.sh padara scriptu izpildamu
+echo izpilda
+git init
+git add 
+git config --global user.email nikstamsons@gmail.com
+git commit -m "20170914_09_30"
+git remote add origin https://github.com/nikstamsons/DMI.git
+git push origin mastergit init
+history parada darbibu vesturi
+history >history_20170921.txt parvieto vesturi uz teksta dokumentu
+l -la parada detalizetu sarakstu apgabala kura atrodies
+l -ls parada detalizetu sarakstu apgabala kura atrodies
+mkdir izveido direktoriju
+mv git-download.sh git-download parsauc scriptu
+nano teksta redigesana
+PATH=$PATH:/home/user izveido celu
+pwd parbauda atrasanas vietu
+rm
+rmdir dzes direktoriju
+uname -r
+whoami kas es esmu
+who parada kas vel strada saja serveri
+. apgabals augstak
+.. majas apgabals

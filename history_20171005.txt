@@ -1,0 +1,57 @@
+    1  VirtualBox --startvm XP
+    2  nano
+    3  git clone https://github.com/nikstamsons/DMI/blob/master/git-download
+    4  git clone https://github.com/nikstamsons/DMI.git
+    5  l -la
+    6  cd DMI
+    7  nano
+    8  echo matematika
+    9  cat matematika
+   10  matematika
+   11  ls -l
+   12  cat history_20170928.txt
+   13  cat history_20170921.txt
+   14  chmod 744 matematika
+   15  matematika
+   16  PATH=$PATH:/home/user/DMI
+   17  matematika
+   18  nano
+   19  nano matematika
+   20  matematika
+   21  nano matematika
+   22  matematika
+   23  nano matematika
+   24  matematika
+   25  nano matematika
+   26  matematika
+   27  nano matematika
+   28  matematika
+   29  nano matematika
+   30  matematika
+   31  nano matematika
+   32  ls -l
+   33  ls -lt
+   34  nano matematika
+   35  matematika
+   36  nano matematika
+   37  matematika
+   38  nano matematika
+   39  matematika
+   40  nano matematika
+   41  matematika
+   42  nano matematika
+   43  matematika
+   44  nano matematika
+   45  matematika 10 5
+   46  nano matematika
+   47  matematika 10 5
+   48  nano matematika
+   49  matematika 10 5
+   50  nano matematika
+   51  matematika 10
+   52  nano matematika
+   53  matematika 50
+   54  matematika 40 10
+   55  matematika
+   56  pwd
+   57  history > history_20171005.txt

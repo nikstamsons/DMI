@@ -1,0 +1,17 @@
+#!/bin/bash
+if [ $# == 2 ]
+then
+a=$1
+b=$2
+val=`expr $a + $b`
+echo $val
+val=`expr $a - $b`
+echo $val
+val=`expr $a \* $b`
+echo $val
+val=`expr $a / $b`
+echo $val
+
+else
+echo "nepietiekams mainigo skaits"
+fi

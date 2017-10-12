@@ -1,0 +1,47 @@
+    1  VirtualBox --startvm XP
+    2  pwd
+    3  matematika
+    4  ls -a
+    5  nano matematika
+    6  matematika 12 6
+    7  ls -l
+    8  matematika
+    9  vards
+   10  nano matematika
+   11  cat history_20170921.txt
+   12  PATH=$PATH:/home/user/DMI
+   13  chmod 744 MATEMATIKA
+   14  matematika
+   15  nano matematika
+   16  matematika
+   17  nano matematika
+   18  matematika
+   19  ls -a
+   20  nano matematika
+   21  ls -a
+   22  ls -l
+   23  nano matematika
+   24  matematika
+   25  nano matematika
+   26  matematika
+   27  nano matemātika
+   28  nano matematika
+   29  matematika
+   30  nano matematika
+   31  matematika
+   32  nano matematika
+   33  matematika
+   34  nano matematika
+   35  matematika 2 2
+   36  matematika 10 7
+   37  nano matematika
+   38  matematika
+   39  nano matematika
+   40  matematika
+   41  nano matematika
+   42  git-upload
+   43  git_upload
+   44  ls -l
+   45  git-upload
+   46  PATH=$PATH:/home/user/DMI
+   47  history > history_20171012.txt

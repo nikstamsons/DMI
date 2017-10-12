@@ -1,17 +1,93 @@
 #!/bin/bash
-if [ $# == 2 ]
-then
-a=$1
-b=$2
-val=`expr $a + $b`
-echo $val
-val=`expr $a - $b`
-echo $val
-val=`expr $a \* $b`
-echo $val
-val=`expr $a / $b`
-echo $val
+#if [ $# == 2 ]
+#then
+#a=$1
+#b=$2
+#val=`expr $a + $b`
+#echo $val
+#val=`expr $a - $b`
+#echo $val
+#val=`expr $a \* $b`
+#echo $val
+#val=`expr $a / $b`
+#echo $val
 
-else
-echo "nepietiekams mainigo skaits"
-fi
+#else
+#echo "nepietiekams mainigo skaits"
+#fi
+
+a=10
+b=5
+
+#if [ $a -eq $b ]
+#then
+ #val=`expr $a + $b`
+  # echo  "$a -eq $b : a ir vienads ar b" $val
+#else
+#val=`expr $a - $b`
+ #  echo  "$a -eq $b: a nav vienads ar  b" $val
+#fi
+
+#if [ $a -ne $b ]
+#then
+ #  echo "$a -ne $b: a nav vienads ar b"
+#else
+ #  echo "$a -ne $b : a ir vienads ar  b"
+#fi
+
+#if [ $a -gt $b ]
+#then
+ #  echo "$a -gt $b: a ir lielaks par b"
+#else
+ #  echo "$a -gt $b: a ir mazaks par b"
+#fi
+
+#if [ $a -lt $b ]
+#then
+ #  echo "$a -lt $b: a ir mazaks par b"
+#else
+ #  echo "$a -lt $b: a ir lielaks par b"
+#fi
+
+#if [ $a -ge $b ]
+#then
+ #  echo "$a -ge $b: a ir lielaks vai vienads ar b"
+#else
+ #  echo "$a -ge $b: a ir mazaks par b"
+#fi
+
+#if [ $a -le $b ]
+#then
+ #  echo "$a -le $b: a ir mazaks vai vienads ar b"
+#else
+ #  echo "$a -le $b: a ir lielaks par b"
+#fi
+#if [ $a != $b ]
+#then
+ #  echo "$a != $b : a is not equal to b"
+#else
+ #  echo "$a != $b: a is equal to b"
+#fi
+
+#if [ $a -lt 100 -a $b -gt 15 ]
+#then
+ #  echo "a<100 un b>15"
+#else
+ #  echo "a>=100 un/vai b<=15"
+#fi
+
+#if [ $a -lt 100 -o $b -gt 100 ]
+#then
+ #  echo "$a -lt 100 -o $b -gt 100 : returns true"
+#else
+ #  echo "$a -lt 100 -o $b -gt 100 : returns false"
+#fi
+
+#if [ $a -lt 5 -o $b -gt 100 ]
+#then
+ #  echo "$a -lt 100 -o $b -gt 100 : returns true"
+#else
+ #  echo "$a -lt 100 -o $b -gt 100 : returns false"
+#fi
+
+

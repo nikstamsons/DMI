@@ -1,0 +1,47 @@
+#!/bin/bash
+
+
+a=100
+while [ "$a" -gt 0 ]   
+do
+
+: <<'END'
+t1=`expr $a / $a`
+t2=`expr $a / 2 % 10`
+if [ $t1 -eq 1 ]
+then
+echo "a: "$a" "$t1" ($a/2%10) "$t2
+fi
+END
+
+#: <<'END'
+#if [`expr $a / $a -eq 1` -a `expr $a / 2 % 10 -gt  0` -a `expr $a / 3 % 10 -gt 0` -a `expr $a / 4 % 10 -gt 0` -a `expr $a / 5 % 10 -gt 0` -a `expr $a / 6 % 10 -gt 0` -a `expr $a / 7 % 10 -gt 0` -a `expr $a / 8 % 10 -gt 0` -a `expr $a / 9 % 10 -gt 0` ]  
+#if [ `expr $a / $a` -eq 1 -a `expr $a / 2 % 10` -eq  0 -a `expr $a / 3 % 10` -eq 0 -a `expr $a / 5 % 10` -eq 0 -a `expr $a / 7 % 10` -eq 0 ]  
+if [ `expr $a / $a` -eq 1 -a `expr $a % 2` -gt  0 -a `expr $a % 3` -gt 0 -a `expr $a % 5` -gt 0 -a `expr $a % 7` -gt 0 ]  
+then
+echo $a
+fi
+#END
+
+#echo $a
+a=`expr $a - 1`
+
+done
+
+
+
+
+: <<'END'
+if [ `expr $a / $a` -eq 1 -a `expr $a / 2` -gt  1 -a `expr $a / 3` -gt 1 -a `expr $a / 5` -gt 1 -a `expr $a / 7` -gt  ]  
+19/19=1 == 1
+19/2%10=9 > 0
+19/3%10=6 > 0
+19/5%10=3 > 0
+19/7%10=2 > 0
+
+18/18=1 == 1
+18/2%10=9 > 0
+18/3%10=6 > 0
+18/5%10=3 > 0
+18/7%10=2 > 0
+END

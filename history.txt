@@ -58,3 +58,161 @@
    58  pwd
    59  history
    60  history > history.txt
+    1  VirtualBox --startvm XP
+    2  git clone https://github.com/nikstamsons/DMI.git
+    3  cd DMI
+    4  pwd
+    5  ls -l
+    6  nano matematika
+    7  matematika 1 2 3
+    8  nano matematika
+    9  matematika
+   10  cat history_20171012.txt
+   11  PATH=$PATH:/home/user/DMI
+   12  chmod 744 matematika
+   13  ls -l
+   14  matematika 1 2 3
+   15  8 2 4
+   16  7 8 4
+   17  1 2 3
+   18  matematika 1 2 3
+   19  matematika 7 5 3
+   20  2 56 8
+   21  matematika 2 56 8
+   22  nano matematika
+   23  matematika 2 3 4
+   24  nano matematika
+   25  matematika 2 3 1
+   26  nano matematika
+   27  matematika 1 2 3
+   28  nano matematika
+   29  matematika 1 2 3
+   30  nano matematika
+   31  matematika 1 2 3
+   32  nano matematika
+   33  matematika 1 2 3
+   34  nano matematika
+   35  matematika 1 2 3
+   36  nano matematika
+   37  matematika 1 2 3
+   38  nano matematika
+   39  matematika 1 2 3
+   40  nano matematika
+   41  matematika 1 2 3
+   42  nano matematika
+   43  matematika 1 2 3
+   44  matematika 3 2 1
+   45  matematika 1 3 2
+   46  matematika 4 5 6
+   47  matematika  4 5 6
+   48  matematika 3 2 1
+   49  nano matematika
+   50  matematika 3 2 1
+   51  0 6 5
+   52  matematika 0 6 5
+   53  nano matematika
+   54  matematika 4 7 2
+   55  matematika 0 0 3
+   56  matematika 1 2 3
+   57  matematika 3 0 5
+   58  3 2 1
+   59  matematika 3 2 1
+   60  nano matematika
+   61  matematika 3 2 1
+   62  4 1 2
+   63  matematika 4 1 2
+   64  nano matematika
+   65  matematika 1 2 3
+   66  matematika 3 2 1
+   67  matematika 3 1 2
+   68  nano matematika
+   69  matematika 3 1 2
+   70  nano matematika
+   71  matematika 3 1 2
+   72  matematika 18 12 14
+   73  nano matematika
+   74  matematika
+   75  nano matematika
+   76  matematika
+   77  nano matematika
+   78  matematika
+   79  nano matematika
+   80  matematika
+   81  nano matematika
+   82  matematika
+   83  nano matematika
+   84  matematika
+   85  nano matematika
+   86  matematika
+   87  nano matematika
+   88  matematika
+   89  nano matematika
+   90  matematika
+   91  nano matematika
+   92  matematika
+   93  nano matematika
+   94* 
+   95  nano matematika
+   96  matematika
+   97  nano matematika
+   98  cp matematika matematika1
+   99  nano matematika1
+  100  matematika1
+  101  nano matematika1
+  102  matematika1
+  103  nano matematika1
+  104  matematika1
+  105  nano matematika1
+  106  matematika1
+  107  nano matematika1
+  108  matematika1
+  109  nano matematika1
+  110  matematika1
+  111  nano matematika1
+  112  matematika1
+  113  nano matematika1
+  114  matematika1
+  115  nano matematika1
+  116  matematika1
+  117  nano matematika1
+  118  matematika1
+  119  nano matematika1
+  120  matematika1
+  121  nano matematika1
+  122  matematika1
+  123  nano matematika1
+  124  matematika1
+  125  nano matematika1
+  126  matematika1
+  127  nano matematika1
+  128  matematika1
+  129  nano matematika1
+  130  matematika1
+  131  nano matematika1
+  132  matematika1
+  133  nano matematika1
+  134  matematika1
+  135  nano matematika1
+  136  matematika1
+  137  nano matematika1
+  138  matematika1
+  139  nano matematika1
+  140  matematika1
+  141  nano matematika1
+  142  matematika1
+  143  nano matematika1
+  144  matematika1
+  145  nano matematika1
+  146  matematika1
+  147  nano matematika1
+  148  matematika1
+  149  nano matematika1
+  150  matematika1
+  151  nano matematika1
+  152  matematika1
+  153  git-upload
+  154  ls -a
+  155  git-upload
+  156  nano matematika1
+  157  matematika1
+  158  history >> history.txt

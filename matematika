@@ -16,8 +16,8 @@
 #echo "nepietiekams mainigo skaits"
 #fi
 
-a=10
-b=5
+#a=10
+#b=5
 
 #if [ $a -eq $b ]
 #then
@@ -90,4 +90,62 @@ b=5
  #  echo "$a -lt 100 -o $b -gt 100 : returns false"
 #fi
 
+
+#a=$1
+#b=$2
+#c=$3
+
+#if [ $a -lt $b -a $b -gt $c ]
+#then
+ #  echo $b
+#else
+ #  if [ $a -lt $c -a $c -gt $b  ]
+#then
+ #  echo $c
+#else
+ #  echo $a
+#fi
+
+#fi
+
+#if [ $a -lt $b -a $b -gt $c -a $c -gt $a ]
+#then
+ #  echo $a $c $b
+#else
+ #  if [ $c -lt $a -a $b -gt $a -a $b -gt $c ]
+#then
+#echo $c $a $b
+#else
+#if [ $b -lt $c -a $a -gt $b -a $c -gt $a ]
+#then
+#echo $b $a $c
+#else
+#if [ $a -lt $b -a $c -gt $b -a $c -gt $a ]
+#then
+#echo $a $b $c
+#else
+#if [ $b -lt $a -a $a -gt $c -a $c -gt $b ]
+#then
+#echo $b $c $a
+#else
+
+#echo $c $b $a
+#fi
+#fi
+#fi
+#fi
+#fi
+
+
+a=100
+while [ "$a" -gt 0 ]    
+do
+: <<'END'
+if [`expr $a / $a -eq 1` -a `expr $a / 2 % 10 -gt  0` -a `expr $a / 3 % 10 -gt 0` -a `expr $a / 4 % 10 -gt 0` -a `expr $a / 5 % 10 -gt 0` -a `expr $a / 6 % 10 -gt 0` -a `expr $a / 7 % 10 -gt 0` -a `expr $a / 8 % 10 -gt 0` -a `expr $a / 9 % 10 -gt 0` ]  
+then
+echo $a
+fi
+END
+a=`expr $a - 1`
+done
 

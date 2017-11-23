@@ -1,0 +1,50 @@
+    1  VirtualBox --startvm XP
+    2  git clone https://github.com/nikstamsons/DMI.git
+    3  cd DMI
+    4  cd python
+    5  pwd
+    6  ls -l
+    7  nano tabula
+    8  chmod 744 tabula
+    9  PATH=$PATH:/home/user/DMI/python
+   10  tabula
+   11  nano cosinus
+   12  python cosinus
+   13  nano cosinus
+   14  python cosinus
+   15  idle &
+   16  nano cosinus
+   17  python cosinus
+   18  nano cosinus
+   19  python cosinus
+   20  nano cosinus
+   21  python cosinus
+   22  nano cosinus
+   23  python cosinus
+   24  python tabula
+   25  nano cosinus
+   26  nano tabula
+   27  python tabula
+   28  nano tabula
+   29  python tabula
+   30  nano tabula
+   31  python tabula
+   32  nano tabula
+   33  python tabula
+   34  nano cosinus
+   35  python cosinus
+   36  nano tabula
+   37  nano cosinus
+   38  python cosinus
+   39  nano cosinus
+   40  python cosinus
+   41  nano cosinus
+   42  python cosinus
+   43  nano cosinus
+   44  python cosinus
+   45  nano cosinus
+   46  python cosinus
+   47  nano cosinus
+   48  ls -l
+   49  cd ..
+   50  history > history_2017_11_23.txt

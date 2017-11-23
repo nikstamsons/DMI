@@ -1,0 +1,19 @@
+#!/usr/bin/python
+# -*- coding: utf-8 -*-
+from math import cosh
+from math import factorial
+x = input ("Lietotaj, ievadi savu argumentu (x): ")
+y = cosh(x/2)
+print "cosh(x/2) = cosh(%.3f) = %.3f"%(x/2,y)
+k=0
+a= (-1)**k*x**(2*k)/(factorial(2*k)*2**(2*k))
+s = a
+print "a = %6.2f s = %6.2f"%(a,s)
+while k<= 10:
+        
+    R = (-1)**k*2**2/(factorial(2*k)*2**2)
+    a = a * R
+    s = s + a
+    k=k + 1
+    print "a%d = %6.2f s%d = %6.2f"%(k,a,k,s)
+

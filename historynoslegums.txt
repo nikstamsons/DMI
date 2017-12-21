@@ -1,0 +1,4 @@
+    1  VirtualBox --startvm XP
+    2  ifconfig
+    3  cd ..
+    4  history >> historynoslegums.txt
